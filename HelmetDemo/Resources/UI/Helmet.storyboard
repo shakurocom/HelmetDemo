@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fUg-Nu-uId">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="SF-Pro.ttf">
+        <array key="SFPro-Medium.ttf">
             <string>SFPro-Medium</string>
         </array>
     </customFonts>
@@ -17,12 +17,12 @@
         <!--Helmet View Controller-->
         <scene sceneID="wlp-MQ-ugi">
             <objects>
-                <viewController storyboardIdentifier="HelmetViewController" id="fUg-Nu-uId" customClass="HelmetViewController" customModule="Shakuro_Apps" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HelmetViewController" id="fUg-Nu-uId" customClass="HelmetViewController" customModule="Helmet" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O9R-sK-LIj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wEf-7J-DJ7" customClass="GradientView" customModule="Shakuro_Apps" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wEf-7J-DJ7" customClass="GradientView" customModule="Helmet" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -38,7 +38,7 @@
                                                 <color key="textColor" white="1" alpha="0.15267385563380281" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="stT-e0-l2m" customClass="DisabledPanView" customModule="Shakuro_Apps" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="stT-e0-l2m" customClass="DisabledPanView" customModule="Helmet" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="723"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ti-4U-y1Z" userLabel="placeholderView">
@@ -52,7 +52,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="723"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </view>
-                                                    <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gTh-bG-MYN" customClass="PriceLabel" customModule="Shakuro_Apps" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gTh-bG-MYN" customClass="PriceLabel" customModule="Helmet" customModuleProvider="target">
                                                         <rect key="frame" x="197" y="314" width="20" height="80"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
@@ -86,7 +86,7 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Axy-KJ-sIe" customClass="StateAlphaButton" customModule="Shakuro_Apps" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Axy-KJ-sIe" customClass="StateAlphaButton" customModule="Helmet" customModuleProvider="target">
                                                         <rect key="frame" x="24" y="86" width="366" height="56"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="56" id="TbO-5w-i22"/>

@@ -9,7 +9,7 @@
 import UIKit
 import SpriteKit
 
-class HelmetViewController: UIViewController, BaseViewControllerProtocol {
+class HelmetViewController: UIViewController {
 
     @IBOutlet private var gradientView: GradientView!
     @IBOutlet private var scrollView: UIScrollView!
@@ -20,15 +20,7 @@ class HelmetViewController: UIViewController, BaseViewControllerProtocol {
     @IBOutlet private var buyButton: UIButton!
     @IBOutlet private var priceLabel: PriceLabel!
 
-    private weak var appRouter: RoutingSupport?
-
     private let scene = HelmetScene()
-
-    static func instantiateViewController(_ coordinator: AppCoordinator, options: Void) -> UIViewController {
-        let viewController = R.unwrap({ R.storyboard.helmet.helmetViewController() })
-        viewController.appRouter = coordinator
-        return viewController
-    }
 
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
@@ -62,7 +54,7 @@ class HelmetViewController: UIViewController, BaseViewControllerProtocol {
                                                       attributes: [.font: Stylesheet.FontFace.sfProMedium.fontWithSize(14),
                                                                    .paragraphStyle: infoParagraphStyle])
         infoLabel.textColor = UIColor(hex: "#BBBFD2")?.withAlphaComponent(0.4)
-        buyButton.backgroundColor = R.color.helmetColor()
+        buyButton.backgroundColor = UIColor.loadColorFromBundle(name: "HelmetColor")
         buyButton.clipsToBounds = true
         buyButton.layer.cornerRadius = 28
         buyButton.setTitle(NSLocalizedString("BUY NOW", comment: ""), for: .normal)

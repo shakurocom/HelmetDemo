@@ -169,8 +169,15 @@ private extension HelmetScene {
     }
 
     func loadHelmets() {
-        guard let blackUrl = Bundle.main.url(forResource: "BlackHelmetAtlas", withExtension: nil),
-              let purpleUrl = Bundle.main.url(forResource: "PurpleHelmetAtlas", withExtension: nil) else {
+        let bundle: Bundle
+        if let bundleURL = Bundle(for: HelmetViewController.self).url(forResource: "Helmet", withExtension: "bundle"),
+           let podBundle = Bundle(url: bundleURL) {
+            bundle = podBundle
+        } else {
+            bundle = Bundle.main
+        }
+        guard let blackUrl = bundle.url(forResource: "BlackHelmetAtlas", withExtension: nil),
+              let purpleUrl = bundle.url(forResource: "PurpleHelmetAtlas", withExtension: nil) else {
             return
         }
         cancelHelmetsLoading()
@@ -246,7 +253,7 @@ private extension HelmetScene {
     }
 
     func setupNodes() {
-        let texture = SKTexture(imageNamed: "blackHelmet-0")
+        let texture = SKTexture(image: UIImage.loadImageFromBundle(name: "blackHelmet-0") ?? UIImage())
         textureSize = texture.size()
         helmetNode.size = textureSize
         helmetNode.texture = texture
