@@ -35,6 +35,7 @@
 		6B743EB02864776A00334C8B /* StateAlphaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743EAF2864776A00334C8B /* StateAlphaButton.swift */; };
 		6B74401F28647F8F00334C8B /* BlackHelmetAtlas in Resources */ = {isa = PBXBuildFile; fileRef = 6B74401E28647F8F00334C8B /* BlackHelmetAtlas */; };
 		6B74402128647F9F00334C8B /* PurpleHelmetAtlas in Resources */ = {isa = PBXBuildFile; fileRef = 6B74402028647F9F00334C8B /* PurpleHelmetAtlas */; };
+		6B744023286487BD00334C8B /* HelmetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B744022286487BD00334C8B /* HelmetViewController.xib */; };
 		F16C04C3E6E5BF6CDD4D45BF /* Pods_Helmet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A348785DD837ABF93D1F2DA6 /* Pods_Helmet.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		6B743EAF2864776A00334C8B /* StateAlphaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateAlphaButton.swift; sourceTree = "<group>"; };
 		6B74401E28647F8F00334C8B /* BlackHelmetAtlas */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BlackHelmetAtlas; sourceTree = "<group>"; };
 		6B74402028647F9F00334C8B /* PurpleHelmetAtlas */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PurpleHelmetAtlas; sourceTree = "<group>"; };
+		6B744022286487BD00334C8B /* HelmetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelmetViewController.xib; sourceTree = "<group>"; };
 		A348785DD837ABF93D1F2DA6 /* Pods_Helmet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Helmet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF3F9C59644D6AC40F0C6B9 /* Pods-Helmet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helmet.debug.xcconfig"; path = "Target Support Files/Pods-Helmet/Pods-Helmet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,6 +187,7 @@
 				6B74402028647F9F00334C8B /* PurpleHelmetAtlas */,
 				6B743EA028646DF100334C8B /* Helmet.xcassets */,
 				6B743EA92864706700334C8B /* Fonts */,
+				6B744022286487BD00334C8B /* HelmetViewController.xib */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				6B743E4528645B9E00334C8B /* Assets.xcassets in Resources */,
 				6B743E6C28645D3600334C8B /* Helmet.storyboard in Resources */,
 				6B743EAA2864707800334C8B /* DINCondensedBold.ttf in Resources */,
+				6B744023286487BD00334C8B /* HelmetViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
