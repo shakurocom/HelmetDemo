@@ -25,9 +25,11 @@
 		6B743E7128645D3600334C8B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E6228645D3600334C8B /* GradientView.swift */; };
 		6B743E7228645D3600334C8B /* HelmetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E6328645D3600334C8B /* HelmetViewController.swift */; };
 		6B743E7328645D3600334C8B /* DisabledPanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E6428645D3600334C8B /* DisabledPanView.swift */; };
+		F16C04C3E6E5BF6CDD4D45BF /* Pods_Helmet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A348785DD837ABF93D1F2DA6 /* Pods_Helmet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0391C71A512BF26817EFF0F1 /* Pods-Helmet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helmet.release.xcconfig"; path = "Target Support Files/Pods-Helmet/Pods-Helmet.release.xcconfig"; sourceTree = "<group>"; };
 		6B743E3828645B9D00334C8B /* Helmet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helmet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B743E3B28645B9D00334C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B743E3D28645B9D00334C8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,8 @@
 		6B743E9B28645E9900334C8B /* blackHelmet-3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-3.json"; sourceTree = "<group>"; };
 		6B743E9C28645E9900334C8B /* blackHelmet-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-19.png"; sourceTree = "<group>"; };
 		6B743E9D28645E9900334C8B /* blackHelmet-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-18.png"; sourceTree = "<group>"; };
+		A348785DD837ABF93D1F2DA6 /* Pods_Helmet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Helmet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF3F9C59644D6AC40F0C6B9 /* Pods-Helmet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helmet.debug.xcconfig"; path = "Target Support Files/Pods-Helmet/Pods-Helmet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,18 +99,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16C04C3E6E5BF6CDD4D45BF /* Pods_Helmet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032C671D2C1911CF24DF49FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3F9C59644D6AC40F0C6B9 /* Pods-Helmet.debug.xcconfig */,
+				0391C71A512BF26817EFF0F1 /* Pods-Helmet.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E429475C2D6C34885E2C891 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A348785DD837ABF93D1F2DA6 /* Pods_Helmet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6B743E2F28645B9D00334C8B = {
 			isa = PBXGroup;
 			children = (
 				6B743E4F28645C4300334C8B /* HelmetControl */,
 				6B743E3A28645B9D00334C8B /* HelmetDemo */,
 				6B743E3928645B9D00334C8B /* Products */,
+				032C671D2C1911CF24DF49FD /* Pods */,
+				4E429475C2D6C34885E2C891 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -262,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B743E4C28645B9E00334C8B /* Build configuration list for PBXNativeTarget "Helmet" */;
 			buildPhases = (
+				4CE3810C8D86E2B17E369382 /* [CP] Check Pods Manifest.lock */,
 				6B743E3428645B9D00334C8B /* Sources */,
 				6B743E3528645B9D00334C8B /* Frameworks */,
 				6B743E3628645B9D00334C8B /* Resources */,
+				7B666D15F3603D10B1735091 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -321,6 +348,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CE3810C8D86E2B17E369382 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Helmet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B666D15F3603D10B1735091 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Helmet/Pods-Helmet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Helmet/Pods-Helmet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Helmet/Pods-Helmet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6B743E3428645B9D00334C8B /* Sources */ = {
@@ -474,6 +543,7 @@
 		};
 		6B743E4D28645B9E00334C8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF3F9C59644D6AC40F0C6B9 /* Pods-Helmet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -503,6 +573,7 @@
 		};
 		6B743E4E28645B9E00334C8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0391C71A512BF26817EFF0F1 /* Pods-Helmet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

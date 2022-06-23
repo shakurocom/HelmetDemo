@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Helmet/Pods-Helmet-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CommonCryptoModule/CommonCryptoModule.framework
+${BUILT_PRODUCTS_DIR}/Shakuro.iOS_Toolbox/Shakuro_iOS_Toolbox.framework
+${BUILT_PRODUCTS_DIR}/pop/pop.framework

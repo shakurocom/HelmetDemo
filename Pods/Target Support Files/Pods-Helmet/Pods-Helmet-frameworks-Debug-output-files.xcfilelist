@@ -1,0 +1,4 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CommonCryptoModule.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Shakuro_iOS_Toolbox.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework
