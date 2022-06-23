@@ -1,5 +1,4 @@
 import UIKit
-import Shakuro_iOS_Toolbox
 
 enum Stylesheet {
 

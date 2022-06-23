@@ -7,7 +7,6 @@
 //
 
 import SpriteKit
-import Shakuro_iOS_Toolbox
 
 final class HelmetScene: SKScene {
 

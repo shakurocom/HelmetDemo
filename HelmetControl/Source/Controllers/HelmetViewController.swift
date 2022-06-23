@@ -8,8 +8,9 @@
 
 import UIKit
 import SpriteKit
+import Shakuro_CommonTypes
 
-class HelmetViewController: UIViewController {
+public class HelmetViewController: UIViewController {
 
     @IBOutlet private var gradientView: GradientView!
     @IBOutlet private var scrollView: UIScrollView!
@@ -22,11 +23,11 @@ class HelmetViewController: UIViewController {
 
     private let scene = HelmetScene()
 
-    override var preferredStatusBarStyle: UIStatusBarStyle {
+    public override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         buyButton.isHidden = true
         helmetView.clipsToBounds = false
@@ -73,7 +74,7 @@ class HelmetViewController: UIViewController {
 
     }
 
-    override func viewDidAppear(_ animated: Bool) {
+    public override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         (helmetView.scene as? HelmetScene)?.didAppear()
     }
