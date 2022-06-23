@@ -1,0 +1,45 @@
+{"frames": {
+
+"helmet_0008.png":
+{
+	"frame": {"x":1,"y":1,"w":800,"h":800},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":800},
+	"sourceSize": {"w":800,"h":800}
+},
+"helmet_0009.png":
+{
+	"frame": {"x":1,"y":803,"w":800,"h":800},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":800},
+	"sourceSize": {"w":800,"h":800}
+},
+"helmet_0010.png":
+{
+	"frame": {"x":803,"y":1,"w":800,"h":800},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":800},
+	"sourceSize": {"w":800,"h":800}
+},
+"helmet_0011.png":
+{
+	"frame": {"x":803,"y":803,"w":800,"h":800},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":800},
+	"sourceSize": {"w":800,"h":800}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "purpleHelmet-2.png",
+	"format": "RGBA8888",
+	"size": {"w":1604,"h":1604},
+	"scale": "1",
+	"related_multi_packs": [ "purpleHelmet-0.json", "purpleHelmet-1.json", "purpleHelmet-3.json", "purpleHelmet-4.json", "purpleHelmet-5.json", "purpleHelmet-6.json", "purpleHelmet-7.json", "purpleHelmet-8.json", "purpleHelmet-9.json", "purpleHelmet-10.json", "purpleHelmet-11.json", "purpleHelmet-12.json", "purpleHelmet-13.json", "purpleHelmet-14.json", "purpleHelmet-15.json", "purpleHelmet-16.json", "purpleHelmet-17.json", "purpleHelmet-18.json", "purpleHelmet-19.json" ],
+	"smartupdate": "$TexturePacker:SmartUpdate:27fa397a39961e48751e581cdfcae2f9:3f019e8c9803ae8e346e550cf324a67e:e793c40c8f5ed570f237b815669f5f5e$"
+}
+}

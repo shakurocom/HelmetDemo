@@ -9,21 +9,85 @@
 /* Begin PBXBuildFile section */
 		6B743E3C28645B9D00334C8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E3B28645B9D00334C8B /* AppDelegate.swift */; };
 		6B743E3E28645B9D00334C8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E3D28645B9D00334C8B /* SceneDelegate.swift */; };
-		6B743E4028645B9D00334C8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E3F28645B9D00334C8B /* ViewController.swift */; };
-		6B743E4328645B9D00334C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B743E4128645B9D00334C8B /* Main.storyboard */; };
 		6B743E4528645B9E00334C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B743E4428645B9E00334C8B /* Assets.xcassets */; };
 		6B743E4828645B9E00334C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B743E4628645B9E00334C8B /* LaunchScreen.storyboard */; };
+		6B743E6528645D3600334C8B /* HelmetScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E5628645D3500334C8B /* HelmetScene.swift */; };
+		6B743E6728645D3600334C8B /* SpriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E5828645D3500334C8B /* SpriteButton.swift */; };
+		6B743E6828645D3600334C8B /* PurpleHelmetAtlas in Resources */ = {isa = PBXBuildFile; fileRef = 6B743E5928645D3500334C8B /* PurpleHelmetAtlas */; };
+		6B743E6928645D3600334C8B /* String+UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E5A28645D3500334C8B /* String+UIBezierPath.swift */; };
+		6B743E6A28645D3600334C8B /* CGPoint+SpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E5B28645D3500334C8B /* CGPoint+SpriteKit.swift */; };
+		6B743E6B28645D3600334C8B /* LabelEffectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E5C28645D3500334C8B /* LabelEffectNode.swift */; };
+		6B743E6C28645D3600334C8B /* Helmet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B743E5D28645D3500334C8B /* Helmet.storyboard */; };
+		6B743E6D28645D3600334C8B /* HelmetAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E5E28645D3600334C8B /* HelmetAnimator.swift */; };
+		6B743E6E28645D3600334C8B /* RemoteTextureAtlas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E5F28645D3600334C8B /* RemoteTextureAtlas.swift */; };
+		6B743E6F28645D3600334C8B /* PriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E6028645D3600334C8B /* PriceLabel.swift */; };
+		6B743E7028645D3600334C8B /* JSONEncode+Autorelease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E6128645D3600334C8B /* JSONEncode+Autorelease.swift */; };
+		6B743E7128645D3600334C8B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E6228645D3600334C8B /* GradientView.swift */; };
+		6B743E7228645D3600334C8B /* HelmetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E6328645D3600334C8B /* HelmetViewController.swift */; };
+		6B743E7328645D3600334C8B /* DisabledPanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E6428645D3600334C8B /* DisabledPanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B743E3828645B9D00334C8B /* Helmet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helmet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B743E3B28645B9D00334C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B743E3D28645B9D00334C8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6B743E3F28645B9D00334C8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6B743E4228645B9D00334C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B743E4428645B9E00334C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B743E4728645B9E00334C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B743E4928645B9E00334C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B743E5628645D3500334C8B /* HelmetScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelmetScene.swift; sourceTree = "<group>"; };
+		6B743E5828645D3500334C8B /* SpriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteButton.swift; sourceTree = "<group>"; };
+		6B743E5928645D3500334C8B /* PurpleHelmetAtlas */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PurpleHelmetAtlas; sourceTree = "<group>"; };
+		6B743E5A28645D3500334C8B /* String+UIBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+UIBezierPath.swift"; sourceTree = "<group>"; };
+		6B743E5B28645D3500334C8B /* CGPoint+SpriteKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+SpriteKit.swift"; sourceTree = "<group>"; };
+		6B743E5C28645D3500334C8B /* LabelEffectNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelEffectNode.swift; sourceTree = "<group>"; };
+		6B743E5D28645D3500334C8B /* Helmet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Helmet.storyboard; sourceTree = "<group>"; };
+		6B743E5E28645D3600334C8B /* HelmetAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelmetAnimator.swift; sourceTree = "<group>"; };
+		6B743E5F28645D3600334C8B /* RemoteTextureAtlas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteTextureAtlas.swift; sourceTree = "<group>"; };
+		6B743E6028645D3600334C8B /* PriceLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceLabel.swift; sourceTree = "<group>"; };
+		6B743E6128645D3600334C8B /* JSONEncode+Autorelease.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONEncode+Autorelease.swift"; sourceTree = "<group>"; };
+		6B743E6228645D3600334C8B /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		6B743E6328645D3600334C8B /* HelmetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelmetViewController.swift; sourceTree = "<group>"; };
+		6B743E6428645D3600334C8B /* DisabledPanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisabledPanView.swift; sourceTree = "<group>"; };
+		6B743E7628645E9900334C8B /* blackHelmet-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-15.png"; sourceTree = "<group>"; };
+		6B743E7728645E9900334C8B /* blackHelmet-0.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-0.json"; sourceTree = "<group>"; };
+		6B743E7828645E9900334C8B /* blackHelmet-19.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-19.json"; sourceTree = "<group>"; };
+		6B743E7928645E9900334C8B /* blackHelmet-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-14.png"; sourceTree = "<group>"; };
+		6B743E7A28645E9900334C8B /* blackHelmet-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-16.png"; sourceTree = "<group>"; };
+		6B743E7B28645E9900334C8B /* blackHelmet-15.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-15.json"; sourceTree = "<group>"; };
+		6B743E7C28645E9900334C8B /* blackHelmet-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-17.png"; sourceTree = "<group>"; };
+		6B743E7D28645E9900334C8B /* blackHelmet-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-13.png"; sourceTree = "<group>"; };
+		6B743E7E28645E9900334C8B /* blackHelmet-14.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-14.json"; sourceTree = "<group>"; };
+		6B743E7F28645E9900334C8B /* blackHelmet-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-12.png"; sourceTree = "<group>"; };
+		6B743E8028645E9900334C8B /* blackHelmet-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-10.png"; sourceTree = "<group>"; };
+		6B743E8128645E9900334C8B /* blackHelmet-18.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-18.json"; sourceTree = "<group>"; };
+		6B743E8228645E9900334C8B /* blackHelmet-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-11.png"; sourceTree = "<group>"; };
+		6B743E8328645E9900334C8B /* blackHelmet-1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-1.json"; sourceTree = "<group>"; };
+		6B743E8428645E9900334C8B /* blackHelmet-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-8.png"; sourceTree = "<group>"; };
+		6B743E8528645E9900334C8B /* blackHelmet-13.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-13.json"; sourceTree = "<group>"; };
+		6B743E8628645E9900334C8B /* blackHelmet-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-9.png"; sourceTree = "<group>"; };
+		6B743E8728645E9900334C8B /* blackHelmet-6.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-6.json"; sourceTree = "<group>"; };
+		6B743E8828645E9900334C8B /* blackHelmet-7.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-7.json"; sourceTree = "<group>"; };
+		6B743E8928645E9900334C8B /* blackHelmet-12.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-12.json"; sourceTree = "<group>"; };
+		6B743E8A28645E9900334C8B /* blackHelmet-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-1.png"; sourceTree = "<group>"; };
+		6B743E8B28645E9900334C8B /* blackHelmet-11.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-11.json"; sourceTree = "<group>"; };
+		6B743E8C28645E9900334C8B /* blackHelmet-8.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-8.json"; sourceTree = "<group>"; };
+		6B743E8D28645E9900334C8B /* blackHelmet-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-0.png"; sourceTree = "<group>"; };
+		6B743E8E28645E9900334C8B /* blackHelmet-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-2.png"; sourceTree = "<group>"; };
+		6B743E8F28645E9900334C8B /* blackHelmet-4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-4.json"; sourceTree = "<group>"; };
+		6B743E9028645E9900334C8B /* blackHelmet-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-3.png"; sourceTree = "<group>"; };
+		6B743E9128645E9900334C8B /* blackHelmet-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-7.png"; sourceTree = "<group>"; };
+		6B743E9228645E9900334C8B /* blackHelmet-5.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-5.json"; sourceTree = "<group>"; };
+		6B743E9328645E9900334C8B /* blackHelmet-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-6.png"; sourceTree = "<group>"; };
+		6B743E9428645E9900334C8B /* blackHelmet-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-4.png"; sourceTree = "<group>"; };
+		6B743E9528645E9900334C8B /* blackHelmet-9.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-9.json"; sourceTree = "<group>"; };
+		6B743E9628645E9900334C8B /* blackHelmet-10.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-10.json"; sourceTree = "<group>"; };
+		6B743E9728645E9900334C8B /* blackHelmet-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-5.png"; sourceTree = "<group>"; };
+		6B743E9828645E9900334C8B /* blackHelmet-2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-2.json"; sourceTree = "<group>"; };
+		6B743E9928645E9900334C8B /* blackHelmet-17.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-17.json"; sourceTree = "<group>"; };
+		6B743E9A28645E9900334C8B /* blackHelmet-16.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-16.json"; sourceTree = "<group>"; };
+		6B743E9B28645E9900334C8B /* blackHelmet-3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "blackHelmet-3.json"; sourceTree = "<group>"; };
+		6B743E9C28645E9900334C8B /* blackHelmet-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-19.png"; sourceTree = "<group>"; };
+		6B743E9D28645E9900334C8B /* blackHelmet-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackHelmet-18.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +104,8 @@
 		6B743E2F28645B9D00334C8B = {
 			isa = PBXGroup;
 			children = (
-				6B743E3A28645B9D00334C8B /* Helmet */,
+				6B743E4F28645C4300334C8B /* HelmetControl */,
+				6B743E3A28645B9D00334C8B /* HelmetDemo */,
 				6B743E3928645B9D00334C8B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +118,141 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B743E3A28645B9D00334C8B /* Helmet */ = {
+		6B743E3A28645B9D00334C8B /* HelmetDemo */ = {
 			isa = PBXGroup;
 			children = (
 				6B743E3B28645B9D00334C8B /* AppDelegate.swift */,
 				6B743E3D28645B9D00334C8B /* SceneDelegate.swift */,
-				6B743E3F28645B9D00334C8B /* ViewController.swift */,
-				6B743E4128645B9D00334C8B /* Main.storyboard */,
-				6B743E4428645B9E00334C8B /* Assets.xcassets */,
-				6B743E4628645B9E00334C8B /* LaunchScreen.storyboard */,
-				6B743E4928645B9E00334C8B /* Info.plist */,
+				6B743E5028645C7100334C8B /* Resources */,
 			);
-			path = Helmet;
+			path = HelmetDemo;
+			sourceTree = "<group>";
+		};
+		6B743E4F28645C4300334C8B /* HelmetControl */ = {
+			isa = PBXGroup;
+			children = (
+				6B743E5228645CBE00334C8B /* Source */,
+				6B743E5328645CC400334C8B /* Resources */,
+			);
+			path = HelmetControl;
+			sourceTree = "<group>";
+		};
+		6B743E5028645C7100334C8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B743E4928645B9E00334C8B /* Info.plist */,
+				6B743E4428645B9E00334C8B /* Assets.xcassets */,
+				6B743E5128645CB500334C8B /* UI */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B743E5128645CB500334C8B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6B743E4628645B9E00334C8B /* LaunchScreen.storyboard */,
+				6B743E5D28645D3500334C8B /* Helmet.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6B743E5228645CBE00334C8B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6B743E6428645D3600334C8B /* DisabledPanView.swift */,
+				6B743E6228645D3600334C8B /* GradientView.swift */,
+				6B743E5E28645D3600334C8B /* HelmetAnimator.swift */,
+				6B743E5628645D3500334C8B /* HelmetScene.swift */,
+				6B743E5C28645D3500334C8B /* LabelEffectNode.swift */,
+				6B743E6028645D3600334C8B /* PriceLabel.swift */,
+				6B743E5F28645D3600334C8B /* RemoteTextureAtlas.swift */,
+				6B743E5428645CE200334C8B /* Controllers */,
+				6B743E5528645CE800334C8B /* Controls */,
+				6B743E7428645E6300334C8B /* Extensions */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6B743E5328645CC400334C8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B743E5928645D3500334C8B /* PurpleHelmetAtlas */,
+				6B743E7528645E9900334C8B /* BlackHelmetAtlas */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B743E5428645CE200334C8B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B743E6328645D3600334C8B /* HelmetViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6B743E5528645CE800334C8B /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				6B743E5828645D3500334C8B /* SpriteButton.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		6B743E7428645E6300334C8B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6B743E5B28645D3500334C8B /* CGPoint+SpriteKit.swift */,
+				6B743E6128645D3600334C8B /* JSONEncode+Autorelease.swift */,
+				6B743E5A28645D3500334C8B /* String+UIBezierPath.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6B743E7528645E9900334C8B /* BlackHelmetAtlas */ = {
+			isa = PBXGroup;
+			children = (
+				6B743E7628645E9900334C8B /* blackHelmet-15.png */,
+				6B743E7728645E9900334C8B /* blackHelmet-0.json */,
+				6B743E7828645E9900334C8B /* blackHelmet-19.json */,
+				6B743E7928645E9900334C8B /* blackHelmet-14.png */,
+				6B743E7A28645E9900334C8B /* blackHelmet-16.png */,
+				6B743E7B28645E9900334C8B /* blackHelmet-15.json */,
+				6B743E7C28645E9900334C8B /* blackHelmet-17.png */,
+				6B743E7D28645E9900334C8B /* blackHelmet-13.png */,
+				6B743E7E28645E9900334C8B /* blackHelmet-14.json */,
+				6B743E7F28645E9900334C8B /* blackHelmet-12.png */,
+				6B743E8028645E9900334C8B /* blackHelmet-10.png */,
+				6B743E8128645E9900334C8B /* blackHelmet-18.json */,
+				6B743E8228645E9900334C8B /* blackHelmet-11.png */,
+				6B743E8328645E9900334C8B /* blackHelmet-1.json */,
+				6B743E8428645E9900334C8B /* blackHelmet-8.png */,
+				6B743E8528645E9900334C8B /* blackHelmet-13.json */,
+				6B743E8628645E9900334C8B /* blackHelmet-9.png */,
+				6B743E8728645E9900334C8B /* blackHelmet-6.json */,
+				6B743E8828645E9900334C8B /* blackHelmet-7.json */,
+				6B743E8928645E9900334C8B /* blackHelmet-12.json */,
+				6B743E8A28645E9900334C8B /* blackHelmet-1.png */,
+				6B743E8B28645E9900334C8B /* blackHelmet-11.json */,
+				6B743E8C28645E9900334C8B /* blackHelmet-8.json */,
+				6B743E8D28645E9900334C8B /* blackHelmet-0.png */,
+				6B743E8E28645E9900334C8B /* blackHelmet-2.png */,
+				6B743E8F28645E9900334C8B /* blackHelmet-4.json */,
+				6B743E9028645E9900334C8B /* blackHelmet-3.png */,
+				6B743E9128645E9900334C8B /* blackHelmet-7.png */,
+				6B743E9228645E9900334C8B /* blackHelmet-5.json */,
+				6B743E9328645E9900334C8B /* blackHelmet-6.png */,
+				6B743E9428645E9900334C8B /* blackHelmet-4.png */,
+				6B743E9528645E9900334C8B /* blackHelmet-9.json */,
+				6B743E9628645E9900334C8B /* blackHelmet-10.json */,
+				6B743E9728645E9900334C8B /* blackHelmet-5.png */,
+				6B743E9828645E9900334C8B /* blackHelmet-2.json */,
+				6B743E9928645E9900334C8B /* blackHelmet-17.json */,
+				6B743E9A28645E9900334C8B /* blackHelmet-16.json */,
+				6B743E9B28645E9900334C8B /* blackHelmet-3.json */,
+				6B743E9C28645E9900334C8B /* blackHelmet-19.png */,
+				6B743E9D28645E9900334C8B /* blackHelmet-18.png */,
+			);
+			path = BlackHelmetAtlas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +313,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B743E6828645D3600334C8B /* PurpleHelmetAtlas in Resources */,
 				6B743E4828645B9E00334C8B /* LaunchScreen.storyboard in Resources */,
 				6B743E4528645B9E00334C8B /* Assets.xcassets in Resources */,
-				6B743E4328645B9D00334C8B /* Main.storyboard in Resources */,
+				6B743E6C28645D3600334C8B /* Helmet.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +327,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B743E4028645B9D00334C8B /* ViewController.swift in Sources */,
+				6B743E6928645D3600334C8B /* String+UIBezierPath.swift in Sources */,
+				6B743E6D28645D3600334C8B /* HelmetAnimator.swift in Sources */,
+				6B743E7128645D3600334C8B /* GradientView.swift in Sources */,
+				6B743E6F28645D3600334C8B /* PriceLabel.swift in Sources */,
+				6B743E6B28645D3600334C8B /* LabelEffectNode.swift in Sources */,
+				6B743E6728645D3600334C8B /* SpriteButton.swift in Sources */,
 				6B743E3C28645B9D00334C8B /* AppDelegate.swift in Sources */,
 				6B743E3E28645B9D00334C8B /* SceneDelegate.swift in Sources */,
+				6B743E6A28645D3600334C8B /* CGPoint+SpriteKit.swift in Sources */,
+				6B743E7228645D3600334C8B /* HelmetViewController.swift in Sources */,
+				6B743E6528645D3600334C8B /* HelmetScene.swift in Sources */,
+				6B743E6E28645D3600334C8B /* RemoteTextureAtlas.swift in Sources */,
+				6B743E7328645D3600334C8B /* DisabledPanView.swift in Sources */,
+				6B743E7028645D3600334C8B /* JSONEncode+Autorelease.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6B743E4128645B9D00334C8B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B743E4228645B9D00334C8B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6B743E4628645B9E00334C8B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +481,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MW2UF479VW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Helmet/Info.plist;
+				INFOPLIST_FILE = HelmetDemo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Helmet;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,12 +510,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MW2UF479VW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Helmet/Info.plist;
+				INFOPLIST_FILE = HelmetDemo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Helmet;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
