@@ -4,8 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>DINCondensedBold.ttf</string>
-		<string>SFPro-Medium.ttf</string>
+		<string>SF-Pro-Text-Medium.otf</string>
 		<string>HaveHeartOne.otf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>

@@ -28,14 +28,14 @@
 		6B743EA128646DF100334C8B /* Helmet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B743EA028646DF100334C8B /* Helmet.xcassets */; };
 		6B743EA328646E6200334C8B /* UIColor+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743EA228646E6200334C8B /* UIColor+Bundle.swift */; };
 		6B743EA528646F2700334C8B /* String+Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743EA428646F2700334C8B /* String+Index.swift */; };
-		6B743EAA2864707800334C8B /* DINCondensedBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B743EA62864700D00334C8B /* DINCondensedBold.ttf */; };
-		6B743EAB2864707A00334C8B /* SFPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B743EA82864705200334C8B /* SFPro-Medium.ttf */; };
 		6B743EAC2864707C00334C8B /* HaveHeartOne.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B743EA72864701800334C8B /* HaveHeartOne.otf */; };
 		6B743EAE2864713F00334C8B /* UIImage+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743EAD2864713F00334C8B /* UIImage+Bundle.swift */; };
 		6B743EB02864776A00334C8B /* StateAlphaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743EAF2864776A00334C8B /* StateAlphaButton.swift */; };
 		6B74401F28647F8F00334C8B /* BlackHelmetAtlas in Resources */ = {isa = PBXBuildFile; fileRef = 6B74401E28647F8F00334C8B /* BlackHelmetAtlas */; };
 		6B74402128647F9F00334C8B /* PurpleHelmetAtlas in Resources */ = {isa = PBXBuildFile; fileRef = 6B74402028647F9F00334C8B /* PurpleHelmetAtlas */; };
 		6B744023286487BD00334C8B /* HelmetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B744022286487BD00334C8B /* HelmetViewController.xib */; };
+		6B9133782869B1F900A98894 /* FontsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9133772869B1F900A98894 /* FontsLoader.swift */; };
+		6B9133A12869BF7900A98894 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B9133A02869BF7900A98894 /* SF-Pro-Text-Medium.otf */; };
 		F16C04C3E6E5BF6CDD4D45BF /* Pods_Helmet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A348785DD837ABF93D1F2DA6 /* Pods_Helmet.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,14 +64,14 @@
 		6B743EA028646DF100334C8B /* Helmet.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Helmet.xcassets; sourceTree = "<group>"; };
 		6B743EA228646E6200334C8B /* UIColor+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Bundle.swift"; sourceTree = "<group>"; };
 		6B743EA428646F2700334C8B /* String+Index.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Index.swift"; sourceTree = "<group>"; };
-		6B743EA62864700D00334C8B /* DINCondensedBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DINCondensedBold.ttf; sourceTree = "<group>"; };
 		6B743EA72864701800334C8B /* HaveHeartOne.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HaveHeartOne.otf; sourceTree = "<group>"; };
-		6B743EA82864705200334C8B /* SFPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFPro-Medium.ttf"; sourceTree = "<group>"; };
 		6B743EAD2864713F00334C8B /* UIImage+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Bundle.swift"; sourceTree = "<group>"; };
 		6B743EAF2864776A00334C8B /* StateAlphaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateAlphaButton.swift; sourceTree = "<group>"; };
 		6B74401E28647F8F00334C8B /* BlackHelmetAtlas */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BlackHelmetAtlas; sourceTree = "<group>"; };
 		6B74402028647F9F00334C8B /* PurpleHelmetAtlas */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PurpleHelmetAtlas; sourceTree = "<group>"; };
 		6B744022286487BD00334C8B /* HelmetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelmetViewController.xib; sourceTree = "<group>"; };
+		6B9133772869B1F900A98894 /* FontsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsLoader.swift; sourceTree = "<group>"; };
+		6B9133A02869BF7900A98894 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
 		A348785DD837ABF93D1F2DA6 /* Pods_Helmet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Helmet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF3F9C59644D6AC40F0C6B9 /* Pods-Helmet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helmet.debug.xcconfig"; path = "Target Support Files/Pods-Helmet/Pods-Helmet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				6B743E6428645D3600334C8B /* DisabledPanView.swift */,
+				6B9133772869B1F900A98894 /* FontsLoader.swift */,
 				6B743E6228645D3600334C8B /* GradientView.swift */,
 				6B743E5E28645D3600334C8B /* HelmetAnimator.swift */,
 				6B743E5628645D3500334C8B /* HelmetScene.swift */,
@@ -225,9 +226,8 @@
 		6B743EA92864706700334C8B /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				6B743EA62864700D00334C8B /* DINCondensedBold.ttf */,
-				6B743EA82864705200334C8B /* SFPro-Medium.ttf */,
 				6B743EA72864701800334C8B /* HaveHeartOne.otf */,
+				6B9133A02869BF7900A98894 /* SF-Pro-Text-Medium.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -294,14 +294,13 @@
 			files = (
 				6B743EAC2864707C00334C8B /* HaveHeartOne.otf in Resources */,
 				6B74401F28647F8F00334C8B /* BlackHelmetAtlas in Resources */,
-				6B743EAB2864707A00334C8B /* SFPro-Medium.ttf in Resources */,
 				6B743EA128646DF100334C8B /* Helmet.xcassets in Resources */,
 				6B743E4828645B9E00334C8B /* LaunchScreen.storyboard in Resources */,
 				6B74402128647F9F00334C8B /* PurpleHelmetAtlas in Resources */,
 				6B743E4528645B9E00334C8B /* Assets.xcassets in Resources */,
 				6B743E6C28645D3600334C8B /* Helmet.storyboard in Resources */,
-				6B743EAA2864707800334C8B /* DINCondensedBold.ttf in Resources */,
 				6B744023286487BD00334C8B /* HelmetViewController.xib in Resources */,
+				6B9133A12869BF7900A98894 /* SF-Pro-Text-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +370,7 @@
 				6B743EA528646F2700334C8B /* String+Index.swift in Sources */,
 				6B743E6528645D3600334C8B /* HelmetScene.swift in Sources */,
 				6B743E6E28645D3600334C8B /* RemoteTextureAtlas.swift in Sources */,
+				6B9133782869B1F900A98894 /* FontsLoader.swift in Sources */,
 				6B743E7328645D3600334C8B /* DisabledPanView.swift in Sources */,
 				6B743E7028645D3600334C8B /* JSONEncode+Autorelease.swift in Sources */,
 			);

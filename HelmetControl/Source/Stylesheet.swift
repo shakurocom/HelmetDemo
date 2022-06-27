@@ -7,7 +7,7 @@ enum Stylesheet {
     enum FontFace: String {
         case dinCondensedBold = "DINCondensed-Bold"
         case haveHeartOne = "HaveHeartOne"
-        case sfProMedium = "SFPro-Medium"
+        case sfProMedium = "SFProText-Medium"
     }
 
 }
