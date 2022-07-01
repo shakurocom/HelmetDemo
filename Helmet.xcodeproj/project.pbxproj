@@ -16,7 +16,6 @@
 		6B743E6928645D3600334C8B /* String+UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E5A28645D3500334C8B /* String+UIBezierPath.swift */; };
 		6B743E6A28645D3600334C8B /* CGPoint+SpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E5B28645D3500334C8B /* CGPoint+SpriteKit.swift */; };
 		6B743E6B28645D3600334C8B /* LabelEffectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E5C28645D3500334C8B /* LabelEffectNode.swift */; };
-		6B743E6C28645D3600334C8B /* Helmet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B743E5D28645D3500334C8B /* Helmet.storyboard */; };
 		6B743E6D28645D3600334C8B /* HelmetAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E5E28645D3600334C8B /* HelmetAnimator.swift */; };
 		6B743E6E28645D3600334C8B /* RemoteTextureAtlas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E5F28645D3600334C8B /* RemoteTextureAtlas.swift */; };
 		6B743E6F28645D3600334C8B /* PriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B743E6028645D3600334C8B /* PriceLabel.swift */; };
@@ -52,7 +51,6 @@
 		6B743E5A28645D3500334C8B /* String+UIBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+UIBezierPath.swift"; sourceTree = "<group>"; };
 		6B743E5B28645D3500334C8B /* CGPoint+SpriteKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+SpriteKit.swift"; sourceTree = "<group>"; };
 		6B743E5C28645D3500334C8B /* LabelEffectNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelEffectNode.swift; sourceTree = "<group>"; };
-		6B743E5D28645D3500334C8B /* Helmet.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Helmet.storyboard; sourceTree = "<group>"; };
 		6B743E5E28645D3600334C8B /* HelmetAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelmetAnimator.swift; sourceTree = "<group>"; };
 		6B743E5F28645D3600334C8B /* RemoteTextureAtlas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteTextureAtlas.swift; sourceTree = "<group>"; };
 		6B743E6028645D3600334C8B /* PriceLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceLabel.swift; sourceTree = "<group>"; };
@@ -157,7 +155,6 @@
 			isa = PBXGroup;
 			children = (
 				6B743E4628645B9E00334C8B /* LaunchScreen.storyboard */,
-				6B743E5D28645D3500334C8B /* Helmet.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -298,7 +295,6 @@
 				6B743E4828645B9E00334C8B /* LaunchScreen.storyboard in Resources */,
 				6B74402128647F9F00334C8B /* PurpleHelmetAtlas in Resources */,
 				6B743E4528645B9E00334C8B /* Assets.xcassets in Resources */,
-				6B743E6C28645D3600334C8B /* Helmet.storyboard in Resources */,
 				6B744023286487BD00334C8B /* HelmetViewController.xib in Resources */,
 				6B9133A12869BF7900A98894 /* SF-Pro-Text-Medium.otf in Resources */,
 			);
@@ -517,7 +513,7 @@
 				INFOPLIST_FILE = HelmetDemo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Helmet;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -547,7 +543,7 @@
 				INFOPLIST_FILE = HelmetDemo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Helmet;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
