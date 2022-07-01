@@ -2,8 +2,6 @@
 //  SceneDelegate.swift
 //  Helmet
 //
-//  Created by Eugene Klyuenkov on 23.06.2022.
-//
 
 import UIKit
 

@@ -1,8 +1,6 @@
 //
 //  FontsLoader.swift
 //
-//  Created by Eugene Klyuenkov on 27.06.2022.
-//
 
 import Foundation
 import UIKit
@@ -37,16 +35,8 @@ public class FontsLoader {
             (name: "SF-Pro-Text-Medium", fontExtension: "otf"),
             (name: "HaveHeartOne", fontExtension: "otf")
         ]
-        let bundle: Bundle
-        let podBundle = Bundle(for: HelmetViewController.self)
-        if let actualBundleURL = podBundle.url(forResource: "Helmet", withExtension: "bundle"),
-           let actualBundle = Bundle(url: actualBundleURL) {
-            bundle = actualBundle
-        } else {
-            bundle = Bundle.main
-        }
         for font in fonts {
-            _ = UIFont.registerFont(bundle: bundle, fontName: font.name, fontExtension: font.fontExtension)
+            _ = UIFont.registerFont(bundle: Bundle.findBundleIfNeeded(for: FontsLoader.self), fontName: font.name, fontExtension: font.fontExtension)
         }
     }
 

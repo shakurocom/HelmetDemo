@@ -35,6 +35,7 @@
 		6B744023286487BD00334C8B /* HelmetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B744022286487BD00334C8B /* HelmetViewController.xib */; };
 		6B9133782869B1F900A98894 /* FontsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9133772869B1F900A98894 /* FontsLoader.swift */; };
 		6B9133A12869BF7900A98894 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B9133A02869BF7900A98894 /* SF-Pro-Text-Medium.otf */; };
+		6BA48426286F000E0030B418 /* Bundle+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA48425286F000E0030B418 /* Bundle+Helper.swift */; };
 		F16C04C3E6E5BF6CDD4D45BF /* Pods_Helmet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A348785DD837ABF93D1F2DA6 /* Pods_Helmet.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		6B744022286487BD00334C8B /* HelmetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelmetViewController.xib; sourceTree = "<group>"; };
 		6B9133772869B1F900A98894 /* FontsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsLoader.swift; sourceTree = "<group>"; };
 		6B9133A02869BF7900A98894 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		6BA48425286F000E0030B418 /* Bundle+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Helper.swift"; sourceTree = "<group>"; };
 		A348785DD837ABF93D1F2DA6 /* Pods_Helmet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Helmet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF3F9C59644D6AC40F0C6B9 /* Pods-Helmet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helmet.debug.xcconfig"; path = "Target Support Files/Pods-Helmet/Pods-Helmet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,6 +212,7 @@
 		6B743E7428645E6300334C8B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				6BA48425286F000E0030B418 /* Bundle+Helper.swift */,
 				6B743E5B28645D3500334C8B /* CGPoint+SpriteKit.swift */,
 				6B743E6128645D3600334C8B /* JSONEncode+Autorelease.swift */,
 				6B743EA428646F2700334C8B /* String+Index.swift */,
@@ -368,6 +371,7 @@
 				6B743E6E28645D3600334C8B /* RemoteTextureAtlas.swift in Sources */,
 				6B9133782869B1F900A98894 /* FontsLoader.swift in Sources */,
 				6B743E7328645D3600334C8B /* DisabledPanView.swift in Sources */,
+				6BA48426286F000E0030B418 /* Bundle+Helper.swift in Sources */,
 				6B743E7028645D3600334C8B /* JSONEncode+Autorelease.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

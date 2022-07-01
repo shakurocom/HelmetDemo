@@ -168,13 +168,7 @@ private extension HelmetScene {
     }
 
     func loadHelmets() {
-        let bundle: Bundle
-        if let bundleURL = Bundle(for: HelmetViewController.self).url(forResource: "Helmet", withExtension: "bundle"),
-           let podBundle = Bundle(url: bundleURL) {
-            bundle = podBundle
-        } else {
-            bundle = Bundle.main
-        }
+        let bundle: Bundle = Bundle.findBundleIfNeeded(for: HelmetScene.self)
         guard let blackUrl = bundle.url(forResource: "BlackHelmetAtlas", withExtension: nil),
               let purpleUrl = bundle.url(forResource: "PurpleHelmetAtlas", withExtension: nil) else {
             return
