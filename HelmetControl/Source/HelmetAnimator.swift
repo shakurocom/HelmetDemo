@@ -11,22 +11,27 @@ final class HelmetAnimator {
         static let distanceToProgressFactor: CGFloat = 800
     }
 
+    /// Returns a boolean whether the view is currently being animated.
     var animating: Bool {
         return node.action(forKey: Constant.animationKey) != nil
     }
 
+    /// Returns the animation progress.
     var progress: CGFloat {
         return CGFloat(lastFrameIndex) / CGFloat(frames.count - 1)
     }
 
+    /// Returns the firstTexture from the textureAtlas.
     lazy var firstTexture: SKTexture? = {
         return atlas.textureNamed(textureNames[0])
     }()
 
+    /// Returns a strings array of texture names.
     lazy private(set) var textureNames: [String] = {
         return atlas.textureNames.sorted()
     }()
 
+    /// Returns a SKTextures array.
     lazy private(set) var frames: [SKTexture] = {
         return textureNames.compactMap { (name) -> SKTexture? in
             return atlas.textureNamed(name)
@@ -43,6 +48,10 @@ final class HelmetAnimator {
         self.node = node
     }
 
+    /// This method performs an animated transition.
+    /// - parameter newAtlas: remote downloaded atlas.
+    /// - parameter transitionEffect: SpriteKit effect node.
+    /// - parameter counterClockwise: Defines counterclockwise rotated object.
     func performTransition(_ newAtlas: RemoteTextureAtlas, transitionEffect: SKEffectNode, counterClockwise: Bool) {
         removeAnimation(restore: false)
 
@@ -115,6 +124,7 @@ final class HelmetAnimator {
         nodeParent.run(group, withKey: Constant.animationKey)
     }
 
+    /// This method pauses the animation.
     func pause() {
         if !node.isPaused {
             node.isPaused = true
@@ -122,6 +132,8 @@ final class HelmetAnimator {
         lastFrameIndex = frames.firstIndex(where: { $0 === node.texture }) ?? 0
     }
 
+    /// This method removes animation.
+    /// - parameter restore: restores the animation to its original value. Boolean value.
     func removeAnimation(restore: Bool) {
         if node.action(forKey: Constant.animationKey) != nil {
             node.removeAction(forKey: Constant.animationKey)
@@ -135,6 +147,8 @@ final class HelmetAnimator {
         }
     }
 
+    /// This method starts animation.
+    /// - parameter velocity: animation velocity. CGFloat.
     func animate(velocity: CGFloat) {
         let duration = Constant.decelerationDuration
         let addProgress = velocity * CGFloat(duration) / Constant.distanceToProgressFactor
@@ -154,6 +168,8 @@ final class HelmetAnimator {
         node.run(action, withKey: Constant.animationKey)
     }
 
+    /// This method starts animation.
+    /// - parameter delay: delay before executing animation. TimeInterval. The default value is `0`.
     func animate(delay: TimeInterval = 0) {
         defer {
             if node.isPaused {
@@ -180,6 +196,10 @@ final class HelmetAnimator {
         node.run(action, withKey: Constant.animationKey)
     }
 
+    /// Animates to the specified progress.
+    /// - parameter progress: current progress.
+    /// - parameter timePerFrame: timing of each frame shown. TimeInterval. The default value is `1/24`.
+    /// - parameter counterClockwise: Defines counterclockwise rotated object. The default value is `false`.
     func animateTo(_ progress: CGFloat, timePerFrame: TimeInterval = 1 / 24, counterClockwise: Bool = false) {
         lastCounterClockwise = counterClockwise
         if let action = animateAction(progress, animateFrames: frames, timePerFrame: timePerFrame, counterClockwise: counterClockwise) {
@@ -187,6 +207,9 @@ final class HelmetAnimator {
         }
     }
 
+    /// Sets textures according to the specified progress.
+    /// - parameter progress: specified progress.
+    /// - parameter counterClockwise: Defines counterclockwise rotated object. The default value is `false`.
     func setProgress(_ progress: CGFloat, counterClockwise: Bool = false) {
         lastCounterClockwise = counterClockwise
         let index = Int(floor(CGFloat(frames.count - 1) * progress))
@@ -197,6 +220,11 @@ final class HelmetAnimator {
         }
     }
 
+    /// This method create an animated action.
+    /// - parameter animationProgress: specified progress. CGFloat.
+    /// - parameter animateFrames: frames to be animated.
+    /// - parameter timePerFrame: timing of each frame shown. TimeInterval. The default value is `1/24`.
+    /// - parameter counterClockwise: Defines counterclockwise rotated object. The default value is `false`.
     func animateAction(_ animationProgress: CGFloat,
                        animateFrames: [SKTexture],
                        timePerFrame: TimeInterval = 1 / 24,
