@@ -10,8 +10,6 @@ import SpriteKit
 
 final class IndicatorNode: SKNode {
 
-    var action: (() -> Void)?
-
     var nodeColor: UIColor {
         get {
             return shapeNode.fillColor
@@ -46,8 +44,10 @@ final class IndicatorNode: SKNode {
 
 final class CircleShapeButton: SKNode {
 
+    /// Called when the button is pressed.
     var action: (() -> Void)?
 
+    /// Updates the appearance on button tap.
     var isSelected: Bool = false {
         didSet {
             if isSelected != oldValue {

@@ -1,7 +1,9 @@
 import SpriteKit
 // swiftlint:disable nesting
 struct TextureOrigin: Codable {
+
     struct Rect: Codable {
+
         enum CodingKeys: String, CodingKey {
             case originX = "x"
             case originY = "y"
@@ -27,6 +29,7 @@ struct TextureOrigin: Codable {
             try container.encode(value.size.width, forKey: .sizeW)
             try container.encode(value.size.height, forKey: .sizeH)
         }
+
     }
 
     let frame: Rect
