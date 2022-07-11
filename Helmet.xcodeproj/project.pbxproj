@@ -164,18 +164,8 @@
 		6B743E5228645CBE00334C8B /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				6B743E6428645D3600334C8B /* DisabledPanView.swift */,
-				6B9133772869B1F900A98894 /* FontsLoader.swift */,
-				6B743E6228645D3600334C8B /* GradientView.swift */,
-				6B743E5E28645D3600334C8B /* HelmetAnimator.swift */,
-				6B743E5628645D3500334C8B /* HelmetScene.swift */,
-				6B743E5C28645D3500334C8B /* LabelEffectNode.swift */,
-				6B743E6028645D3600334C8B /* PriceLabel.swift */,
-				6B743E5F28645D3600334C8B /* RemoteTextureAtlas.swift */,
-				6B743E9E28646C8400334C8B /* Stylesheet.swift */,
+				6BE772F7287C4B99000ED5FB /* Common */,
 				6B743E5428645CE200334C8B /* Controllers */,
-				6B743E5528645CE800334C8B /* Controls */,
-				6B743E7428645E6300334C8B /* Extensions */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -230,6 +220,24 @@
 				6B9133A02869BF7900A98894 /* SF-Pro-Text-Medium.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6BE772F7287C4B99000ED5FB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6B743E6428645D3600334C8B /* DisabledPanView.swift */,
+				6B9133772869B1F900A98894 /* FontsLoader.swift */,
+				6B743E6228645D3600334C8B /* GradientView.swift */,
+				6B743E5E28645D3600334C8B /* HelmetAnimator.swift */,
+				6B743E5628645D3500334C8B /* HelmetScene.swift */,
+				6B743E5C28645D3500334C8B /* LabelEffectNode.swift */,
+				6B743E6028645D3600334C8B /* PriceLabel.swift */,
+				6B743E5F28645D3600334C8B /* RemoteTextureAtlas.swift */,
+				6B743E9E28646C8400334C8B /* Stylesheet.swift */,
+				6B743E5528645CE800334C8B /* Controls */,
+				6B743E7428645E6300334C8B /* Extensions */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
