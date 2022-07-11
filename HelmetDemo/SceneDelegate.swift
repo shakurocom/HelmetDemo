@@ -14,7 +14,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             return
         }
         let window = UIWindow(windowScene: windowScene)
-        let viewController = HelmetViewController(nibName: "HelmetViewController", bundle: nil)
+        let viewController = HelmetViewController.loadFromNib()
         window.rootViewController = viewController
         window.makeKeyAndVisible()
         self.window = window

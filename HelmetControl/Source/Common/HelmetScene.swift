@@ -168,7 +168,7 @@ private extension HelmetScene {
     }
 
     func loadHelmets() {
-        let bundle: Bundle = Bundle.findBundleIfNeeded(for: HelmetScene.self)
+        let bundle: Bundle = HelmetBundleHelper.bundle
         guard let blackUrl = bundle.url(forResource: "BlackHelmetAtlas", withExtension: nil),
               let purpleUrl = bundle.url(forResource: "PurpleHelmetAtlas", withExtension: nil) else {
             return
@@ -246,7 +246,7 @@ private extension HelmetScene {
     }
 
     func setupNodes() {
-        let texture = SKTexture(image: UIImage.loadImageFromBundle(name: "blackHelmet-0") ?? UIImage())
+        let texture = SKTexture(image: HelmetBundleHelper.readImage(named: "blackHelmet-0") ?? UIImage())
         textureSize = texture.size()
         helmetNode.size = textureSize
         helmetNode.texture = texture
