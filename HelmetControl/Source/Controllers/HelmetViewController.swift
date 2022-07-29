@@ -13,7 +13,7 @@ import Shakuro_CommonTypes
 public class HelmetViewController: UIViewController {
 
     public static func loadFromNib() -> HelmetViewController {
-        return HelmetBundleHelper.instantiateViewController(targetClass: HelmetViewController.self, nibName: "HelmetViewController")
+        return Bundle.helmetBundleHelper.instantiateViewController(targetClass: HelmetViewController.self, nibName: "HelmetViewController")
     }
 
     @IBOutlet private var gradientView: GradientView!
@@ -59,7 +59,7 @@ public class HelmetViewController: UIViewController {
                                                       attributes: [.font: Stylesheet.FontFace.sfProMedium.fontWithSize(14),
                                                                    .paragraphStyle: infoParagraphStyle])
         infoLabel.textColor = UIColor(hex: "#BBBFD2")?.withAlphaComponent(0.4)
-        buyButton.backgroundColor = HelmetBundleHelper.color(named: "HelmetColor")
+        buyButton.backgroundColor = Bundle.helmetBundleHelper.color(named: "HelmetColor")
         buyButton.clipsToBounds = true
         buyButton.layer.cornerRadius = 28
         buyButton.setTitle(NSLocalizedString("BUY NOW", comment: ""), for: .normal)
