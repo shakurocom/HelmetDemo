@@ -10,7 +10,9 @@ Helmet is a Swift component featuring a 3D model that can be freely rotated with
 - [Installation](#installation)
 - [License](#license)
 
-Helmet is designed to showcase an object. The 3D model can be rotated 360° by swiping or dragging, which allows the user to see every detail. There is an easy-to-spot product’s name and price. Helmet also offers color selection, so it’s a ready-made solution for an online store app. 
+Helmet is designed to showcase an object. The 3D model can be rotated 360° by swiping or dragging, which allows the user to see every detail. There is an easy-to-spot product’s name and price. Helmet also offers color selection, so it’s a ready-made solution for an online store app.
+
+![](Resources/product-animation.gif)
 
 Here is the Helmet showcase:
 
